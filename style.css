@@ -1,0 +1,29 @@
+body {
+    transition: background-color 0.5s; /* add a smooth transition effect */
+  }
+  
+  #start {
+    background-color: #4CAF50; /* green color for start button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #start:hover {
+    background-color: #3e8e41; /* darker green on hover */
+  }
+  
+  #stop {
+    background-color: #FF3737; /* red color for stop button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #stop:hover {
+    background-color: #FF3737; /* darker red on hover */
+  }
